@@ -36,7 +36,7 @@ const Products = () => {
                             <div className="product-grid">
                                 <div className="product-image">
                                     <a href="#" className="image">
-                                        <img className="pic-1" src={banner3} alt="Product" />
+                                        <img className="pic-1" src='#' alt="Product" width="500" height="600" />
                                     </a>
                                     <span className="product-discount-label">-33%</span>
                                     <ul className="product-links">
@@ -67,7 +67,7 @@ const Products = () => {
                             <div className="product-grid">
                                 <div className="product-image">
                                     <a href="#" className="image">
-                                        <img className="pic-1" src={banner3} alt="Product" />
+                                        <img className="pic-1" src={banner3} alt="Product" width="500" height="600"/>
                                     </a>
                                     <span className="product-discount-label">-33%</span>
                                     <ul className="product-links">
