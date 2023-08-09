@@ -1,0 +1,29 @@
+/* OrderNowButton.css */
+.orderNowButton {
+    background-color: #ff7900;
+    color: white;
+    border-radius: 12px;
+    height: 80px; /* Increase the height for an even taller button */
+    transition: background-color 0.3s ease; /* Hover effect transition */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text horizontally */
+    padding: 0 20px;
+    cursor: pointer;
+  }
+  
+  .orderNowButton:hover {
+    background-color: #ffbf00; /* Hover effect color */
+  }
+  
+  .orderNowButton span {
+    margin-left: 10px; /* Adds spacing between icon and text */
+    font-size: 18px; /* Increase the font size for the text */
+  }
+  
+  /* Make the image larger */
+  .orderNowButton svg {
+    width: 48px; /* Increase the width of the icon */
+    height: 48px; /* Increase the height of the icon */
+  }
+  
