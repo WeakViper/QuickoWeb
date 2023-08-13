@@ -2,3 +2,8 @@
     max-width: 100%;
     height: auto;
   }
+
+.carousel-landing {
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
+}

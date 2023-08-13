@@ -1,9 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./LandingPage/Navbar"
-import LandingBanner from './LandingPage/LandingBanner';
-import OrderNowButton from './LandingPage/OderNowButton';
-import Products from './LandingPage/ProductCarousel';
+import LandingPage from './LandingPage/LandingPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import SignUp from './SignInSignUp/SignUp';
 
@@ -12,14 +9,13 @@ function App() {
     <Router>
       <div className="App">
       <Switch>
-        <Route path = "/">
-            <Navbar sticky="top" />
-            <LandingBanner />
-            <OrderNowButton />
-            <Products />
+        <Route exact path = "/">
+            <LandingPage />
         </Route>
 
-      
+        <Route path = "/signup">
+            <SignUp />
+        </Route>
       </Switch>
       </div>
     </Router>
