@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "./images/quickoTransparent.png";
+import logo from "../images/quickoTransparent.png";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import "./Navbar.css";
