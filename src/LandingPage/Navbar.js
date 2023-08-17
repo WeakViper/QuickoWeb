@@ -15,8 +15,8 @@ function HomeNavbar() {
         </div>
 
         <div class="mx-auto order-0 d-flex align-items-center">
-          <img alt="" src={logo} width="60" height="60" className="d-inline-block align-top"/>
-          <h1 className="ms-2 h2 text-white fw-bold">Quicko</h1>
+          <img alt="" src={logo} width="38" height="38" className="d-inline-block align-top"/>
+          <h1 className="ms-0 h2 text-white fw-bold">uicko</h1>
         </div>
 
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">

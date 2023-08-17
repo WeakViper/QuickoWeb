@@ -2,17 +2,6 @@
     background-color: #FA2640;
   }
 
-.btn-orange {
-  background-color: #ff7900;
-  color: white;
-  border-color: #ff7900;
-}
-
-.btn-orange:hover {
-  background-color: #ffbf00;
-  border-color: #ffbf00;
-}
-
 .white-bold-text {
     color: white !important;
     font-weight: bold;
@@ -23,7 +12,7 @@
 }
 
 .custom-dropdown .dropdown-toggle svg {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .list-icon-home {
@@ -35,6 +24,11 @@
     text-decoration: none;
     color: inherit;
     transition: color 0.3s;
+}
+
+.cart-icon-home {
+    font-size: 28px; /* Adjust the icon size as needed */
+    color: white; /* Set the icon color to white */
 }
 
   

@@ -1,8 +1,14 @@
+import HomeCarousel from "./HomeCarousel";
 import HomeNavBar from "./HomeNavBar";
+import SearchBar from "./SearchBar";
 
 const Home = () => {
     return (
-        <HomeNavBar />
+        <div className="homePage">
+            <HomeNavBar />
+            <HomeCarousel />
+            <SearchBar />
+        </div>
     );
 }
  

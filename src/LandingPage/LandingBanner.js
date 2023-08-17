@@ -1,6 +1,5 @@
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-import banner1 from './images/banner4.png';
 import banner2 from './images/banner2.png';
 import banner3 from './images/banner3.png';
 import banner4 from './images/banner4.png';

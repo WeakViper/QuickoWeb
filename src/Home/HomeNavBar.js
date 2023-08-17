@@ -3,9 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import FormControl from 'react-bootstrap/FormControl';
-import Form from 'react-bootstrap/Form';
-import { ChevronDown, Person, List } from 'react-bootstrap-icons';
+import { ChevronDown, Person, List, Cart } from 'react-bootstrap-icons';
 import logo from "../images/quickoTransparent.png"
 import "./HomeNavBar.css"
 import { Link } from 'react-router-dom';
@@ -21,8 +19,8 @@ const HomeNavBar = () => {
       </div>
         <Navbar.Brand href="#home">
           <div className="mx-auto order-0 d-flex align-items-center">
-            <img alt="" src={logo} width="60" height="60" className="d-inline-block align-top"/>
-            <h1 className="ms-2 h2 text-white fw-bold">Quicko</h1>
+            <img alt="" src={logo} width="38" height="38" className="d-inline-block align-top"/>
+            <h1 className="ms-0 h2 text-white fw-bold">uicko</h1>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,12 +33,8 @@ const HomeNavBar = () => {
               <NavDropdown.Item href="#action/3.4">Edit Adresses</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Form className="d-flex align-items-center">
-            <FormControl type="search" placeholder="Search" className="mr-2 rounded-pill" aria-label="Search" />
-            <button className="btn btn-orange rounded-pill px-4" type="submit">
-              Search
-            </button>
-            <div className="ms-1 d-flex align-items-center">
+
+          <div className="ms-1 d-flex align-items-center">
               <NavDropdown
                 title={<div className="d-flex align-items-center"><Person className="text-white me-2" /><ChevronDown className="text-white" /></div>}
                 id="profile-dropdown"
@@ -53,7 +47,13 @@ const HomeNavBar = () => {
                 <NavDropdown.Item href="#action/4.4">Sign Out</NavDropdown.Item>
               </NavDropdown>
             </div>
-          </Form>
+
+            <div class="">
+                <Link to="/" className="menu-icon-link">
+                    <Cart className= "mx-4 cart-icon-home"/>
+                </Link>
+            </div>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
