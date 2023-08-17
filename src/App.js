@@ -14,11 +14,11 @@ function App() {
             <LandingPage />
         </Route>
 
-        <Route path = "/signup">
+        <Route exact path = "/signup">
             <SignUp />
         </Route>
 
-        <Route path = "/home">
+        <Route exact path = "/home">
             <Home />
         </Route>
       </Switch>
