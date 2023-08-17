@@ -7,7 +7,7 @@ const SearchBar = () => {
             <div className="search-icon">
                 <Search />
             </div>
-            <input type="text" placeholder="Search..." className="search-input" />
+            <input type="text" placeholder="Whats missing in your pantry?..." className="search-input" />
         </div>
     );
 }

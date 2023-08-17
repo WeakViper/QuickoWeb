@@ -1,3 +1,4 @@
+import Categories from "./Categories";
 import HomeCarousel from "./HomeCarousel";
 import HomeNavBar from "./HomeNavBar";
 import SearchBar from "./SearchBar";
@@ -8,6 +9,7 @@ const Home = () => {
             <HomeNavBar />
             <HomeCarousel />
             <SearchBar />
+            <Categories />
         </div>
     );
 }
