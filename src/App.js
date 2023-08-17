@@ -2,6 +2,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingPage from './LandingPage/LandingPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import SignIn from './SignInSignUp/SignIn';
+import HomeNavbar from './LandingPage/Navbar';
 import SignUp from './SignInSignUp/SignUp';
 import Home from './Home/Home';
 
@@ -14,11 +16,15 @@ function App() {
             <LandingPage />
         </Route>
 
-        <Route exact path = "/signup">
+        <Route path = "/signin">
+            <SignIn />
+        </Route>
+        <Route path = "/signup">
             <SignUp />
         </Route>
 
-        <Route exact path = "/home">
+
+        <Route path = "/home">
             <Home />
         </Route>
       </Switch>

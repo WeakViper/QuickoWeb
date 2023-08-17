@@ -5,9 +5,23 @@ import Navbar from 'react-bootstrap/Navbar';
 import "./Navbar.css";
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button'
+import { useHistory } from 'react-router-dom';
+
+
+
 
 
 function HomeNavbar() {
+  const history=useHistory();
+  const handleClickLogin= () =>{
+    history.push("/signin")
+
+  }
+  const handleSignUp= () =>{
+    history.push("/signup")
+    
+  }
+  
   return (
   <nav class="navbar navbar-expand-md navbar-dark introNavbar">
     <div class="container-fluid">
@@ -20,8 +34,8 @@ function HomeNavbar() {
         </div>
 
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-          <button className='btn btn-orange rounded-pill ms-auto px-4 mx-3'>Login</button>
-          <button className='btn btn-orange rounded-pill px-4 mr-2'>SignUp</button>
+          <button className='btn btn-orange rounded-pill ms-auto px-4 mx-3' onClick={handleClickLogin}>Login</button>
+          <button className='btn btn-orange rounded-pill px-4 mr-2' onClick={handleSignUp}>SignUp</button>
         </div> 
     </div>
   </nav>
