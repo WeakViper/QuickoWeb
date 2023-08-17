@@ -1,8 +1,7 @@
-import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import "./ProductCarousel.css"
-import banner3 from './images/banner3.png';
+import banner3 from '../images/testProduct.jpeg';
 import { Heart } from 'react-bootstrap-icons';
 import { Shuffle } from 'react-bootstrap-icons';
 import { Search } from 'react-bootstrap-icons';
@@ -36,9 +35,8 @@ const Products = () => {
                             <div className="product-grid">
                                 <div className="product-image">
                                     <a href="#" className="image">
-                                        <img className="pic-1" src='#' alt="Product" width="500" height="600" />
+                                        <img className="pic-1" src={banner3} alt="Product" width="500" height="600" />
                                     </a>
-                                    <span className="product-discount-label">-33%</span>
                                     <ul className="product-links">
                                         <li><a href="#" data-tip="Add to Wishlist"><Heart size={18} color="red" /></a></li>
                                         <li><a href="#" data-tip="Compare"><Shuffle size={18} color="blue" /></a></li>
@@ -69,7 +67,6 @@ const Products = () => {
                                     <a href="#" className="image">
                                         <img className="pic-1" src={banner3} alt="Product" width="500" height="600"/>
                                     </a>
-                                    <span className="product-discount-label">-33%</span>
                                     <ul className="product-links">
                                         <li><a href="#" data-tip="Add to Wishlist"><Heart size={18} color="red" /></a></li>
                                         <li><a href="#" data-tip="Compare"><Shuffle size={18} color="blue" /></a></li>

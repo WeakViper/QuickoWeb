@@ -3,7 +3,7 @@ import "./SearchBar.css"
 
 const SearchBar = () => {
     return (
-        <div className="rounded-search-input my-4">
+        <div className="rounded-search-input my-4 mb-5">
             <div className="search-icon">
                 <Search />
             </div>

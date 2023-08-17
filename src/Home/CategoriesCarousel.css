@@ -1,0 +1,17 @@
+/* CategoriesCarousel.css */
+
+.categoriesButton {
+    background-color: #FA2640;
+    color: white;
+    border: none;
+    padding: 12px 38px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .categoriesButton:hover {
+    background-color: darkred;
+  }
+  

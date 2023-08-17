@@ -1,6 +1,7 @@
 import Categories from "./Categories";
 import HomeCarousel from "./HomeCarousel";
 import HomeNavBar from "./HomeNavBar";
+import RetrievingProducts from "./RetrievingProducts";
 import SearchBar from "./SearchBar";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <HomeCarousel />
             <SearchBar />
             <Categories />
+            <RetrievingProducts />
         </div>
     );
 }
