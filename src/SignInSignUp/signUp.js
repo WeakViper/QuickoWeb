@@ -1,129 +1,92 @@
 import React from 'react';
-import FooterNavbar from './FooterNavbar';
-const styles = {
-  body: {
-    margin: 0,
-    padding: 0,
-    fontFamily: 'Roboto, Arial, sans-serif',
-    height: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    position: 'relative',
-    alignItems: 'center',
-  },
-  imageBannersignin: {
-    width: '75%',
-    height: '100%',
-    position: 'absolute',
-    left: 0,
-    top: 0,
-    overflow: 'none',
-  },
-  imageBannersigninImg: {
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover',
-  },
-  signinSection: {
-    position: 'absolute',
-    right: 0,
-    top: 0,
-    width: '25%', // Adjusted width
-    height: '100%',
-    backgroundColor: '#FA2640',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  h1: {
-    fontSize: '40px', // Adjusted font size
-    color: '#fff9f9',
-    marginBottom: '10px',
-  },
-  form: {
-    display: 'flex',
-    flexDirection: 'column',
-    paddingBottom: '20px', // Adjusted padding
-    marginTop: '50px', // Adjusted margin
-  },
-  row: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    marginBottom: '10px', // Adjusted margin
-  },  
-  label: {
-    fontSize: '18px',
-    color: '#fff9f9',
-    marginBottom: '5px', // Adjusted margin
-    width: '40%', // Adjusted width
-  },
-  input: {
-    marginBottom: '10px', // Adjusted margin
-    padding: '8px', // Adjusted padding
-    border: 'none',
-    borderRadius: '8px',
-    backgroundColor: '#f5f5f5',
-    color: '#fffefe',
-    transition: 'background-color 0.2s ease-in-out',
-    width: '60%', // Adjusted width
-  },
-  button: {
-    padding: '10px 20px', // Adjusted padding
-    backgroundColor: '#cc0000',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '4px',
-    fontSize: '18px',
-    cursor: 'pointer',
-    transition: 'background-color 0.2s ease-in-out',
-    marginTop: '10px', // Adjusted margin
-  },
-  a: {
-    marginLeft: '16px',
-    textDecoration: 'none',
-    padding: '6px',
-    color: 'white',
-  },
-  aHover: {
-    color: 'black',
-  },
-};
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import {
+  MDBBtn,
+  MDBContainer,
+  MDBCard,
+  MDBCardBody,
+  MDBCol,
+  MDBRow,
+  MDBInput,
+  MDBCheckbox,
+  MDBIcon
+} from 'mdb-react-ui-kit';
 
-
-
-
-const SignUp = () => {
+function Signup() {
   return (
-    <div style={styles.body}>
-      <div style={styles.imageBannersignin}>
-        <img style={styles.imageBannersigninImg} src="newdel.png" alt="Banner" />
-      </div>
-      
+    <MDBContainer fluid style={{ padding: 0, margin: 0 }}>
+      <MDBRow className='d-flex justify-content-center align-items-center h-100' style={{ backgroundColor: "#FA2640", minHeight: '100vh' }}>
+        <MDBCol col='12'>
+          <MDBCard
+            className='bg-white my-5 mx-auto'
+            style={{
+              borderRadius: '1rem',
+              maxWidth: '500px',
+              marginTop: '-100px'
+            }}
+          >
+            <MDBCardBody className='p-5 d-flex flex-column align-items-center mx-auto w-100'>
+            <h2 className="fw-bold mb-2 text-center">
+  <img src="3.png" alt="Your Logo" style={{ maxWidth: '100%', height:'200px' }} />
+</h2>
 
-      <div style={styles.signinSection}>
-      <h1 style={styles.h1}>Sign Up</h1>
-        <form style={styles.form} id="signin-form">
-          <label style={styles.label} htmlFor="firstName">First Name</label>
-          <input style={styles.input} type="text" id="firstName" name="firstName" required />
-          <label style={styles.label} htmlFor="lastName">Last Name</label>
-          <input style={styles.input} type="text" id="lastName" name="lastName" required />
-          <label style={styles.label} htmlFor="email">Email</label>
-          <input style={styles.input} type="email" id="email" name="email" required />
-          <label style={styles.label} htmlFor="phoneNumber">Phone Number</label>
-          <input style={styles.input} type="tel" id="phoneNumber" name="phoneNumber" required />
+              <MDBRow>
+                <MDBCol col='6'>
+                  <MDBInput wrapperClass='mb-4' label='First name' id='form1' type='text' />
+                </MDBCol>
 
-          <label style={styles.label} htmlFor="password">Password</label>
-          <input style={styles.input} type="password" id="password" name="password" required />
-          <label style={styles.label} htmlFor="confirmPassword">Confirm Password</label>
-          <input style={styles.input} type="password" id="confirmPassword" name="confirmPassword" required />
+                <MDBCol col='6'>
+                  <MDBInput wrapperClass='mb-4' label='Last name' id='form1' type='text' />
+                </MDBCol>
+              </MDBRow>
 
-          <button style={styles.button} type="submit">Sign Up</button>
-        </form>
-        <FooterNavbar />
-      </div>
-      
-    </div>
+              <MDBInput wrapperClass='mb-4' label='Email' id='form1' type='email' />
+              <MDBInput wrapperClass='mb-4' label='Password' id='form1' type='password' />
+              <MDBInput wrapperClass='mb-4' label='Confirm Password' id='form1' type='Confirm Password' />
+
+              <MDBInput wrapperClass='mb-4' label='Phone Number' id='form1' type='Phone Number' />
+
+
+              <div className='d-flex justify-content-center mb-4'>
+                <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Subscribe to our newsletter' />
+              </div>
+
+              <MDBBtn className='w-100 mb-4' size='md'>
+                sign up
+              </MDBBtn>
+
+              <div className='text-center'>
+                <p>or sign up with:</p>
+
+                <MDBBtn tag='a' color='none' className='mx-3' style={{ color: '#1266f1' }}>
+                  <MDBIcon fab icon='facebook-f' size='sm' />
+                </MDBBtn>
+
+                <MDBBtn tag='a' color='none' className='mx-3' style={{ color: '#1266f1' }}>
+                  <MDBIcon fab icon='twitter' size='sm' />
+                </MDBBtn>
+
+                <MDBRow>
+                <MDBCol col='6'>
+                  <MDBBtn className="mb-2 w-100" size="lg" style={{backgroundColor: '#dd4b39'}}>
+                    <MDBIcon fab icon="google" className="mx-2"/>
+                    Sign in with Google
+                  </MDBBtn>
+                </MDBCol>
+                <MDBCol col='6'>
+                  <MDBBtn className="mb-4 w-100" size="lg" style={{backgroundColor: '#3b5998'}}>
+                    <MDBIcon fab icon="facebook-f" className="mx-2"/>
+                    Sign in with Facebook
+                  </MDBBtn>
+                </MDBCol>
+              </MDBRow>
+              </div>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
   );
-};
-export default SignUp;
+}
+
+export default Signup;
