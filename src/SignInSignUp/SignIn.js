@@ -1,126 +1,75 @@
-import FooterNavbar from "./FooterNavbar";
+import React from 'react';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+
+import {
+  MDBBtn,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBCardBody,
+  MDBInput,
+  MDBIcon,
+  MDBCheckbox
+}
+from 'mdb-react-ui-kit';
+
 const styles = {
   body: {
-    margin: 0,
-    padding: 0,
-    fontFamily: 'Roboto, Arial, sans-serif',
-    height: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    position: "relative",
-    alignItems: 'center',
+    backgroundColor: "#FA2640",
   },
-  imageBannersignin: {
-    width: '70%',
-    height: '100%',
-    position: 'absolute',
-    left: 0,
-    top: 0,
-    overflow: 'none',
-  },
-  imageBannersigninImg: {
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover',
-  },
-  signinSection: {
-    position: 'absolute',
-    right: 0,
-    top: 0,
-    width: '30%',
-    height: '100%',
-    backgroundColor: '#FA2640',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  h1: {
-    fontSize: '60px',
-    color: '#fff9f9',
-    marginBottom: '10px',
-    paddingBottom: '100px',
-  },
-  form: {
-    display: 'flex',
-    flexDirection: 'column',
-    paddingBottom: '200px',
-  },
-  label: {
-    fontSize: '18px',
-    color: '#fff9f9',
-    marginBottom: '10px',
-  },
-  input: {
-    marginBottom: '20px',
-    padding: '12px',
-    border: 'none',
-    borderRadius: '8px',
-    backgroundColor: '#f5f5f5',
-    color: '#fffefe',
-    transition: 'background-color 0.2s ease-in-out',
-    width: '200px',
-  },
-  inputFocus: {
-    outline: 'none',
-    backgroundColor: '#e0e0e0',
-  },
-  labelForm: {
-    fontSize: '20px',
-    color: 'white',
-    marginBottom: '10px',
-    width: '40px',
-  },
-  button: {
-    padding: '12px 24px',
-    backgroundColor: '#cc0000',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '4px',
-    fontSize: '18px',
-    cursor: 'pointer',
-    transition: 'background-color 0.2s ease-in-out',
-  },
-  buttonHover: {
-    backgroundColor: '#ff4d4d',
-  },
-  a: {
-    marginLeft: '16px',
-    textDecoration: 'none',
-    padding: '6px',
-    color: 'white',
-  },
-  aHover: {
-    color: 'black',
-  },
-  
 };
 
-
-const SignIn = () => {
+function App() {
   return (
-    <div style={styles.body} className="SignInForm">
-      {/* Background image */}
-      <div style={styles.imageBannersignin}>
-        <img src="newdel.png" alt="Banner" style={styles.imageBannersigninImg} />
-      </div>
-      
-      {/* Sign in section */}
-      <div style={styles.signinSection}>
-        <h1 style={styles.h1}>Sign In</h1>
-        <form id="signin-form" style={styles.form}>
-          <label htmlFor="username" style={styles.label}>Username</label>
-          <input type="text" id="username" name="username" style={styles.input} required />
-          <label htmlFor="password" style={styles.label}>Password</label>
-          <input type="password" id="password" name="password" style={styles.input} required />
-          <button type="submit" style={styles.button}>Sign In</button>
-        </form>
-      </div>
-      <FooterNavbar />
-    </div>
+    <MDBContainer fluid style={styles.body}>
+
+      <MDBRow className='d-flex justify-content-center align-items-center h-100'>
+        <MDBCol col='12'>
+
+          <MDBCard className='bg-white my-5 mx-auto' style={{borderRadius: '1rem', maxWidth: '500px'}}>
+            <MDBCardBody className='p-5 w-100 d-flex flex-column'>
+
+              <h2 className="fw-bold mb-2 text-center">
+                <img src="3.png" alt="Your Logo" style={{ maxWidth: '100%', height:'200px' }} />
+              </h2>
+
+              <p className="text-white-50 mb-3">Please enter your login and password!</p>
+
+              <MDBInput wrapperClass='mb-4 w-100' label='Email address' id='formControlLg' type='email' size="lg"/>
+              <MDBInput wrapperClass='mb-4 w-100' label='Password' id='formControlLg' type='password' size="lg"/>
+
+              <MDBCheckbox name='flexCheck' id='flexCheckDefault' className='mb-4' label='Remember password' />
+
+              <MDBBtn size='lg'>
+                Login
+              </MDBBtn>
+
+              <hr className="my-4" />
+
+              <MDBRow>
+                <MDBCol col='6'>
+                  <MDBBtn className="mb-2 w-100" size="lg" style={{backgroundColor: '#dd4b39'}}>
+                    <MDBIcon fab icon="google" className="mx-2"/>
+                    Sign in with Google
+                  </MDBBtn>
+                </MDBCol>
+                <MDBCol col='6'>
+                  <MDBBtn className="mb-4 w-100" size="lg" style={{backgroundColor: '#3b5998'}}>
+                    <MDBIcon fab icon="facebook-f" className="mx-2"/>
+                    Sign in with Facebook
+                  </MDBBtn>
+                </MDBCol>
+              </MDBRow>
+
+            </MDBCardBody>
+          </MDBCard>
+
+        </MDBCol>
+      </MDBRow>
+
+    </MDBContainer>
   );
-};
+}
 
-export default SignIn;
-
-  
+export default App;
