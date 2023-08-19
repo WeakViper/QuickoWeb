@@ -3,6 +3,7 @@ import HomeCarousel from "./HomeCarousel";
 import HomeNavBar from "./HomeNavBar";
 import RetrievingProducts from "./RetrievingProducts";
 import SearchBar from "./SearchBar";
+import FooterNavbar from "./footerHome";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <SearchBar />
             <Categories />
             <RetrievingProducts />
+            <FooterNavbar />
         </div>
     );
 }
