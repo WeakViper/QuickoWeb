@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import LandingBanner from './LandingBanner';
 import OrderNowButton from './OderNowButton';
 import Products from './ProductCarousel';
+import FooterNavbar from "../Footer/footerHome";
 
 const LandingPage = () => {
     return (
@@ -11,6 +12,7 @@ const LandingPage = () => {
             <LandingBanner />
             <OrderNowButton />
             <Products />
+            <FooterNavbar />
         </div>
     );
 }

@@ -3,7 +3,7 @@ import HomeCarousel from "./HomeCarousel";
 import HomeNavBar from "./HomeNavBar";
 import RetrievingProducts from "./RetrievingProducts";
 import SearchBar from "./SearchBar";
-import FooterNavbar from "./footerHome";
+import FooterNavbar from "../Footer/footerHome";
 
 const Home = () => {
     return (
