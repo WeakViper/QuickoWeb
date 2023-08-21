@@ -41,8 +41,8 @@ const HomeNavBar = () => {
                 className="custom-dropdown" // Add custom class
               >
                 {/* Dropdown content */}
-                <NavDropdown.Item href="#action/4.1">Profile</NavDropdown.Item>
-                <NavDropdown.Item href="#action/4.2">Settings</NavDropdown.Item>
+                <NavDropdown.Item href="/userprofile">Profile</NavDropdown.Item>
+                <NavDropdown.Item href="/settings">Settings</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/4.4">Sign Out</NavDropdown.Item>
               </NavDropdown>

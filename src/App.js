@@ -4,8 +4,10 @@ import LandingPage from './LandingPage/LandingPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import SignIn from './SignInSignUp/SignIn';
 import HomeNavbar from './LandingPage/Navbar';
-import SignUp from './SignInSignUp/SignUp';
+import SignUp from './SignInSignUp/signUp';
+import UserInfo from './Settings/UserInfo'
 import Home from './Home/Home';
+import MainPage from './Settings/MainPage'
 
 function App() {
   return (
@@ -27,6 +29,15 @@ function App() {
         <Route path = "/home">
             <Home />
         </Route>
+
+        <Route path = '/settings'>
+          <MainPage />
+        </Route>
+        
+        <Route path = '/userprofile'>
+            <UserInfo />
+        </Route>
+
       </Switch>
       </div>
     </Router>
