@@ -1,3 +1,4 @@
+import React from 'react';
 import googleLogo from '../images/googleLogo.webp';
 import "./login.css"
 
@@ -18,46 +19,48 @@ function AddAddress() {
       <body>
         <div className="container d-flex justify-content-center align-items-center min-vh-100">
           <div className="row border rounded-5 p-3 bg-white shadow box-area">
-            <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
-              
-            </div>
-            <div className="col-md-6 right-box">
-              <div className="row align-items-center">
-                <div className="header-text mb-4">
-                  <h2>Hello There!</h2>
-                  <p>We are excited to have you join us!.</p>
-                </div>
-                <div className="input-group mb-3">
-                  <input type="text" className="form-control form-control-lg bg-light fs-6" placeholder="Email address" />
-                </div>
-                <div className="input-group mb-3">
-                  <input type="number" className="form-control form-control-lg bg-light fs-6" placeholder="Phone Number" />
-                </div>
-                <div className="input-group mb-3">
-                  <input type="password" className="form-control form-control-lg bg-light fs-6" placeholder="Password" />
-                </div>
-                <div className="input-group mb-3">
-                  <input type="password" className="form-control form-control-lg bg-light fs-6" placeholder="Confirm Password" />
-                </div>
-                <div className="input-group mb-5 d-flex justify-content-between">
-                  <div className="form-check">
-                    <input type="checkbox" className="form-check-input" id="formCheck" />
-                    <label htmlFor="formCheck" className="form-check-label text-secondary"><small>Remember Me</small></label>
+              <div className="row d-flex justify-content-center">
+                <div className="col-md-8">
+                  <div className="header-text mb-4">
+                    <h2 className='h3'>Add a New Address</h2>
+                    <p>Time to tell us where to deliver!</p>
                   </div>
-                </div>
-                <div className="input-group mb-3">
-                  <button className="btn btn-lg btn-primary w-100 fs-6">Sign Up</button>
-                </div>
-                <div className="input-group mb-3">
-                  <button className="btn btn-lg btn-light w-100 fs-6"><img src={googleLogo} style={{ width: '20px' }} className="me-2" alt="Google Logo" /><small>Sign In with Google</small></button>
-                </div>
-                <div className="row">
-                  <small>Already have an account? <a href="#">Sign In</a></small>
+                  <div className="input-group mb-3">
+                    <input type="text" className="form-control form-control-lg bg-light fs-6" placeholder="Full Name" />
+                  </div>
+
+                  <div className="input-group mb-3">
+                    <input type="text" className="form-control form-control-lg bg-light fs-6" placeholder="Phone Number" />
+                  </div>
+
+                  <div className="input-group mb-3">
+                    <input type="text" className="form-control form-control-lg bg-light fs-6" placeholder="Street Address" />
+                  </div>
+
+                  <div className="input-group mb-3">
+                    <input type="text" className="form-control form-control-lg bg-light fs-6" placeholder="Unit/apartment no." />
+                  </div>
+
+                  <div className="input-group mb-3">
+                    <input type="text" className="form-control form-control-lg bg-light fs-6" placeholder="City" />
+                  </div>
+
+                  <div className="input-group mb-3">
+                    <input type="text" className="form-control form-control-lg bg-light fs-6" placeholder="State" />
+                  </div>
+
+                  <div className="input-group mb-4">
+                    <input type="text" className="form-control form-control-lg bg-light fs-6" placeholder="Postal Code" />
+                  </div>
+                  
+                  <div className="input-group mb-3">
+                    <button className="btn btn-lg btn-primary w-100 fs-6 rounded-pill">Submit</button>
+                  </div>
+                  
                 </div>
               </div>
             </div>
           </div>
-        </div>
       </body>
     </html>
   );

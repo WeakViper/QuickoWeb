@@ -4,10 +4,11 @@ import LandingPage from './LandingPage/LandingPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import SignIn from './SignInSignUp/SignIn';
 import HomeNavbar from './LandingPage/Navbar';
-import SignUp from './SignInSignUp/signUp';
 import UserInfo from './Settings/UserInfo'
 import Home from './Home/Home';
 import MainPage from './Settings/MainPage'
+import AddAddress from './SignInSignUp/AddAddress';
+import SignUp from './SignInSignUp/SignUp';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         </Route>
 
         <Route path = "/addaddress">
-          <SignUp />
+          <AddAddress />
         </Route>
 
         <Route path = "/home">
