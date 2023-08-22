@@ -20,7 +20,7 @@ function SignIn() {
           <div className="row border rounded-5 p-3 bg-white shadow box-area">
             <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
             <div class="featured-image mb-3">
-              <img src={bannerImg} class="img-fluid" alt = 'Sign Up Banner'/>
+              <img src={bannerImg} class="img-fluid imgBanner" alt = 'Sign Up Banner'/>
             </div>
             </div>
             <div className="col-md-6 right-box">
@@ -48,7 +48,8 @@ function SignIn() {
                   <button className="btn btn-lg btn-primary w-100 fs-6">Login</button>
                 </div>
                 <div className="input-group mb-3">
-                  <button className="btn btn-lg btn-light w-100 fs-6"><img src={googleLogo} style={{ width: '20px' }} className="me-2" alt="Google Logo" /><small>Sign In with Google</small></button>
+                  <button className="btn btn-lg btn-light w-100 fs-6"><img src={googleLogo} style={{ width: '20px' }} className="me-2" alt="Google Logo" /><small>
+                    Sign In with Google</small></button>
                 </div>
                 <div className="row">
                   <small>Don't have an account? <a href="#">Sign Up</a></small>

@@ -38,7 +38,7 @@ const Categories = () => {
     const buttonArray = Array.from({ length: 10 }, (v, index) => index + 1);
 
     return (
-        <div className="categoriesCarousel mx-5 px-5">
+        <div className="categoriesCarousel mt-5 px-5">
             <Carousel responsive={responsive}>
                 {buttonArray.map((item) => (
                     <div key={item}>
@@ -48,6 +48,8 @@ const Categories = () => {
                     </div>
                 ))}
             </Carousel>
+
+            <div className="line-separator my-5"></div>
         </div>
     );
 }

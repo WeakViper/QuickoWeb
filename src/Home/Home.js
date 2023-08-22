@@ -4,6 +4,8 @@ import HomeNavBar from "./HomeNavBar";
 import RetrievingProducts from "./RetrievingProducts";
 import SearchBar from "./SearchBar";
 import FooterNavbar from "../Footer/footerHome";
+import ProductDisplay1 from "./ProductDisplay1";
+import ProductDisplay2 from "./ProductDisplay2";
 
 const Home = () => {
     return (
@@ -12,6 +14,8 @@ const Home = () => {
             <HomeCarousel />
             <SearchBar />
             <Categories />
+            <ProductDisplay1 />
+            <ProductDisplay2 />
             <RetrievingProducts />
             <FooterNavbar />
         </div>

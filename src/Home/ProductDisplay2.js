@@ -1,12 +1,17 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import "./ProductCarousel.css"
 import banner3 from '../images/testProduct.jpeg';
 import { Heart } from 'react-bootstrap-icons';
 import { Shuffle } from 'react-bootstrap-icons';
 import { Search } from 'react-bootstrap-icons';
+import "./ProductDisplay.css"
 
-const Products = () => {
+const ProductDisplay2 = () => {
+
+    const cardCount = 8;
+    
+    const duplicatedCards = [];
+
     const responsive = {
         superLargeDesktop: {
             breakpoint: { max: 4000, min: 3000 },
@@ -25,10 +30,6 @@ const Products = () => {
             items: 1
         }
     };
-
-    const cardCount = 8;
-
-    const duplicatedCards = [];
 
     for (let i = 0; i < cardCount; i++) {
         duplicatedCards.push(
@@ -68,13 +69,23 @@ const Products = () => {
     }
 
     return (
-        <div className="productCarouselContainer mx-4 my-5">
+        <div className="ProductDisplay1">
+            <div className="displayHeader mt-5 mb-4 px-5">
+                <h1 className="h3">
+                    Chocolate Milk
+                </h1>
+            </div>
+
+        <div className="productCarouselContainer mx-4 mb-5">
             <Carousel responsive={responsive}>
                 {duplicatedCards}
             </Carousel>
         </div>
+
+        <div className="line-separator my-5"></div>
+            
+        </div>
     );
-};
-
-export default Products;
-
+}
+ 
+export default ProductDisplay2;

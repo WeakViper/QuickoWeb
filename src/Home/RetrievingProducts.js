@@ -1,4 +1,5 @@
 import ProductCards from './ProductCards';
+import "./RetrievingProducts.js"
 
 const getRandomDescription = () => {
   const descriptions = [
@@ -23,7 +24,14 @@ const RetrievingProducts = () => {
   const randomCards = generateRandomCards(20);
 
   return (
-    <div>
+    <div className='mt-5'>
+
+      <div className="px-5 d-flex justify-content-center">
+          <h1 className="h3">
+              Popular Items
+          </h1>
+      </div>
+
       <ProductCards cards={randomCards} />
     </div>
   );

@@ -1,5 +1,6 @@
 import googleLogo from '../images/googleLogo.webp';
 import "./login.css"
+import bannerImg from "../images/SignInBanner.png"
 
 function SignUp() {
   return (
@@ -19,7 +20,7 @@ function SignUp() {
         <div className="container d-flex justify-content-center align-items-center min-vh-100">
           <div className="row border rounded-5 p-3 bg-white shadow box-area">
             <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
-              
+              <img src={bannerImg} class="img-fluid imgBanner" alt = 'Sign Up Banner'/>
             </div>
             <div className="col-md-6 right-box">
               <div className="row align-items-center">

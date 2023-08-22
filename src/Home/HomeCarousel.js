@@ -11,7 +11,7 @@ import './HomeCarousel.css';
 
 function HomeCarousel() {
   return (
-    <Container className='px-2 pt-2 pb-4 carousel-container' fluid>
+    <Container className='px-2 pt-2 pb-4 mt-5 carousel-container' fluid>
       <Row>
         <Col xs={12} md={12}>
           <Carousel interval={3000} className='carousel-home'>

@@ -9,7 +9,9 @@ body{
 .box-area{
     width: 930px;
 }
-
+.imgBanner  {
+    border-radius: 30px;
+}
 /*------------ Right box ------------*/
 
 .right-box{
