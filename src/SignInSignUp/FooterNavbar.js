@@ -32,7 +32,7 @@ const styles = {
 
 const FooterNavbar = () => {
   return (
-    <nav style={styles.footerNav} className="footer-nav">
+    <nav className="footer-nav">
       <a href="#" className="logo-link">
         <img src="logo.png" alt="Logo" style={styles.footerLogo} />
       </a>
