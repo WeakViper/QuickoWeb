@@ -15,19 +15,23 @@ function App() {
       <div className="App">
       <Switch>
         <Route exact path = "/">
-            <LandingPage />
+          <LandingPage />
         </Route>
 
         <Route path = "/signin">
-            <SignIn />
+          <SignIn />
         </Route>
         
         <Route path = "/signup">
-        <SignUp />
+          <SignUp />
+        </Route>
+
+        <Route path = "/addaddress">
+          <SignUp />
         </Route>
 
         <Route path = "/home">
-            <Home />
+          <Home />
         </Route>
 
         <Route path = '/settings'>
@@ -35,7 +39,7 @@ function App() {
         </Route>
         
         <Route path = '/userprofile'>
-            <UserInfo />
+          <UserInfo />
         </Route>
 
       </Switch>

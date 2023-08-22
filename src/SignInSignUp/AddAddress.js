@@ -1,7 +1,7 @@
 import googleLogo from '../images/googleLogo.webp';
 import "./login.css"
 
-function SignUp() {
+function AddAddress() {
   return (
     <html>
       <head>
@@ -13,7 +13,7 @@ function SignUp() {
           rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
-        <title>Sign Up</title>
+        <title>New Address</title>
       </head>
       <body>
         <div className="container d-flex justify-content-center align-items-center min-vh-100">
@@ -63,4 +63,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default AddAddress;

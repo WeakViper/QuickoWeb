@@ -1,75 +1,64 @@
+import googleLogo from '../images/googleLogo.webp';
+import "./login.css"
 
-import logo from "../images/3.png"
-
-import {
-  MDBBtn,
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBCard,
-  MDBCardBody,
-  MDBInput,
-  MDBIcon,
-  MDBCheckbox
-}
-from 'mdb-react-ui-kit';
-
-const styles = {
-  body: {
-    backgroundColor: "#FA2640",
-  },
-};
-
-function App() {
+function SignIn() {
   return (
-    <MDBContainer fluid style={styles.body}>
-
-      <MDBRow className='d-flex justify-content-center align-items-center h-100'>
-        <MDBCol col='12'>
-
-          <MDBCard className='bg-white my-5 mx-auto' style={{borderRadius: '1rem', maxWidth: '500px'}}>
-            <MDBCardBody className='p-5 w-100 d-flex flex-column'>
-
-              <h2 className="fw-bold mb-2 text-center">
-                <img src={logo} alt="Your Logo" style={{ maxWidth: '100%', height:'200px' }} />
-              </h2>
-
-              <p className="text-white-50 mb-3">Please enter your login and password!</p>
-
-              <MDBInput wrapperClass='mb-4 w-100' label='Email address' id='formControlLg' type='email' size="lg"/>
-              <MDBInput wrapperClass='mb-4 w-100' label='Password' id='formControlLg' type='password' size="lg"/>
-
-              <MDBCheckbox name='flexCheck' id='flexCheckDefault' className='mb-4' label='Remember password' />
-
-              <MDBBtn size='lg'>
-                Login
-              </MDBBtn>
-
-              <hr className="my-4" />
-
-              <MDBRow>
-                <MDBCol col='6'>
-                  <MDBBtn className="mb-2 w-100" size="lg" style={{backgroundColor: '#dd4b39'}}>
-                    <MDBIcon fab icon="google" className="mx-2"/>
-                    Sign in with Google
-                  </MDBBtn>
-                </MDBCol>
-                <MDBCol col='6'>
-                  <MDBBtn className="mb-4 w-100" size="lg" style={{backgroundColor: '#3b5998'}}>
-                    <MDBIcon fab icon="facebook-f" className="mx-2"/>
-                    Sign in with Facebook
-                  </MDBBtn>
-                </MDBCol>
-              </MDBRow>
-
-            </MDBCardBody>
-          </MDBCard>
-
-        </MDBCol>
-      </MDBRow>
-
-    </MDBContainer>
+    <html>
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          href="bootstrap/css/bootstrap.min.css"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Sign In</title>
+      </head>
+      <body>
+        <div className="container d-flex justify-content-center align-items-center min-vh-100">
+          <div className="row border rounded-5 p-3 bg-white shadow box-area">
+            <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
+              
+            </div>
+            <div className="col-md-6 right-box">
+              <div className="row align-items-center">
+                <div className="header-text mb-4">
+                  <h2>Hello, Again</h2>
+                  <p>We are happy to have you back.</p>
+                </div>
+                <div className="input-group mb-3">
+                  <input type="text" className="form-control form-control-lg bg-light fs-6" placeholder="Email address" />
+                </div>
+                <div className="input-group mb-1">
+                  <input type="password" className="form-control form-control-lg bg-light fs-6" placeholder="Password" />
+                </div>
+                <div className="input-group mb-5 d-flex justify-content-between">
+                  <div className="form-check">
+                    <input type="checkbox" className="form-check-input" id="formCheck" />
+                    <label htmlFor="formCheck" className="form-check-label text-secondary"><small>Remember Me</small></label>
+                  </div>
+                  <div className="forgot">
+                    <small><a href="#">Forgot Password?</a></small>
+                  </div>
+                </div>
+                <div className="input-group mb-3">
+                  <button className="btn btn-lg btn-primary w-100 fs-6">Login</button>
+                </div>
+                <div className="input-group mb-3">
+                  <button className="btn btn-lg btn-light w-100 fs-6"><img src={googleLogo} style={{ width: '20px' }} className="me-2" alt="Google Logo" /><small>Sign In with Google</small></button>
+                </div>
+                <div className="row">
+                  <small>Don't have an account? <a href="#">Sign Up</a></small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
   );
 }
 
-export default App;
+export default SignIn;
+
