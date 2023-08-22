@@ -19,12 +19,12 @@ function App() {
         </Route>
 
         <Route path = "/signin">
-            
+            <SignIn />
         </Route>
+        
         <Route path = "/signup">
-            
+        <SignUp />
         </Route>
-
 
         <Route path = "/home">
             <Home />

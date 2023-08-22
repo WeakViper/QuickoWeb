@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Footer from '../Footer/footerHome';
 import SettingsNavbar from './SettingsNavbar';
 import './MainPage.css';
+import userImg from "../images/user-image.jpg"
 
 const BackButton = () => {
     const handleClick = () => {
@@ -50,7 +51,7 @@ const MainPage = () => {
                         <Link to="/userprofile">
                             <div className="user-circle">
                                 {/* Edit Image Path Here */}
-                                <img src="src\images\user-image.jpg" alt="User" />
+                                <img src={userImg} alt="User" />
                             </div>
                         </Link>
                         <div className="user-info">

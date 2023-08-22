@@ -5,6 +5,7 @@ import Footer from '../Footer/footerHome';
 import SettingsNavbar from './SettingsNavbar';
 import './MainPage.css';
 import { Link } from 'react-router-dom';
+import userImg from "../images/user-image.jpg"
 
 const Banner = ({ title, link, icon, description }) => {
     const IconComponent = icon;
@@ -69,7 +70,7 @@ const UserInfo = () => {
                 <Row className="align-items-center">
                     <Col className="text-center">
                         <div className="user-circle">
-                            <img src="src\images\user-image.jpg" alt="User" />
+                            <img src={userImg} alt="User" />
                         </div>
                         <div className="user-info">
                             <h4>Username</h4>

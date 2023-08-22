@@ -1,5 +1,7 @@
 import React from 'react';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import logo from "../images/3.png"
+
 import {
   MDBBtn,
   MDBContainer,
@@ -27,7 +29,7 @@ function Signup() {
           >
             <MDBCardBody className='p-5 d-flex flex-column align-items-center mx-auto w-100'>
             <h2 className="fw-bold mb-2 text-center">
-  <img src="3.png" alt="Your Logo" style={{ maxWidth: '100%', height:'200px' }} />
+  <img src={logo} alt="Your Logo" style={{ maxWidth: '100%', height:'200px' }} />
 </h2>
 
               <MDBRow>
