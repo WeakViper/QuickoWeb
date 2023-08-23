@@ -1,6 +1,7 @@
 import googleLogo from '../images/googleLogo.webp';
 import "./login.css"
 import bannerImg from "../images/SignInBanner.png"
+import backgroundImg from "../images/SignUpBackground.png"
 
 function SignUp() {
   return (
@@ -16,7 +17,14 @@ function SignUp() {
         <link rel="stylesheet" href="style.css" />
         <title>Sign Up</title>
       </head>
-      <body>
+      <body style={{
+        backgroundImage: `url(${backgroundImg})`, // Set background image
+        backgroundSize: 'cover', // Stretch to cover the whole screen
+        backgroundRepeat: 'no-repeat', // Prevent image repetition
+        backgroundAttachment: 'fixed', // Keep the image fixed while scrolling
+        margin: 0, // Remove default margin
+        padding: 0, // Remove default padding
+      }}>
         <div className="container d-flex justify-content-center align-items-center min-vh-100">
           <div className="row border rounded-5 p-3 bg-white shadow box-area">
             <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
@@ -46,7 +54,7 @@ function SignUp() {
                     <label htmlFor="formCheck" className="form-check-label text-secondary"><small>Remember Me</small></label>
                   </div>
                 </div>
-                <div className="input-group mb-3">
+                <div className="input-group mb-3 loginButton">
                   <button className="btn btn-lg btn-primary w-100 fs-6">Sign Up</button>
                 </div>
                 <div className="input-group mb-3">

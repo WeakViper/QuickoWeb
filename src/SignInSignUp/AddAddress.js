@@ -1,6 +1,5 @@
-import React from 'react';
-import googleLogo from '../images/googleLogo.webp';
 import "./login.css"
+import backgroundImg from "../images/SignUpBackground.png"
 
 function AddAddress() {
   return (
@@ -16,7 +15,14 @@ function AddAddress() {
         <link rel="stylesheet" href="style.css" />
         <title>New Address</title>
       </head>
-      <body>
+      <body style={{
+        backgroundImage: `url(${backgroundImg})`, // Set background image
+        backgroundSize: 'cover', // Stretch to cover the whole screen
+        backgroundRepeat: 'no-repeat', // Prevent image repetition
+        backgroundAttachment: 'fixed', // Keep the image fixed while scrolling
+        margin: 0, // Remove default margin
+        padding: 0, // Remove default padding
+      }}>
         <div className="container d-flex justify-content-center align-items-center min-vh-100">
           <div className="row border rounded-5 p-3 bg-white shadow box-area">
               <div className="row d-flex justify-content-center">
