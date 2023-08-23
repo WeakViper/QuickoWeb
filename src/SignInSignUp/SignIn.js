@@ -29,7 +29,9 @@ function SignIn() {
           <div className="row border rounded-5 p-3 bg-white shadow box-area">
             <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
             <div class="featured-image mb-3">
-              <img src={bannerImg} class="img-fluid imgBanner" alt = 'Sign Up Banner'/>
+              <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+                <img src={bannerImg} class="img-fluid imgBanner" alt = 'Sign Up Banner'/>
+              </a>
             </div>
             </div>
             <div className="col-md-6 right-box">

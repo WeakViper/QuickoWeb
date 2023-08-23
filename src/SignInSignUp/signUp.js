@@ -28,7 +28,9 @@ function SignUp() {
         <div className="container d-flex justify-content-center align-items-center min-vh-100">
           <div className="row border rounded-5 p-3 bg-white shadow box-area">
             <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
-              <img src={bannerImg} class="img-fluid imgBanner" alt = 'Sign Up Banner'/>
+              <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+                <img src={bannerImg} class="img-fluid imgBanner" alt = 'Sign Up Banner'/>
+              </a>
             </div>
             <div className="col-md-6 right-box">
               <div className="row align-items-center">
