@@ -68,10 +68,18 @@ const Products = () => {
     }
 
     return (
-        <div className="productCarouselContainer mx-4 my-5">
-            <Carousel responsive={responsive}>
-                {duplicatedCards}
-            </Carousel>
+        <div className="landingCarousel">
+            <div className="displayHeader mt-5 mb-4 px-5">
+                <h1 className="h3">
+                    Popular Products
+                </h1>
+            </div>
+
+            <div className="productCarouselContainer mx-4 my-5">
+                <Carousel responsive={responsive}>
+                    {duplicatedCards}
+                </Carousel>
+            </div>
         </div>
     );
 };

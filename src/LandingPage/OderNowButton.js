@@ -11,11 +11,14 @@ const OrderNowButton = () => {
     };
 
     return (
-        <div className="d-grid gap-2 col-4 mx-auto">
-            <button type="submit" className="btn orderNowButton rounded-pill p-2" onClick={handleClick}>
-                <ArrowRight color="white" size={48} />
-                <span>Order Now</span>
-            </button>
+        <div className="OrderButtonLanding">
+            <div className="d-grid gap-2 col-4 mx-auto">
+                <button type="submit" className="btn orderNowButton rounded-pill p-2" onClick={handleClick}>
+                    <ArrowRight color="white" size={48} />
+                    <span>Order Now</span>
+                </button>
+            </div>
+            <div className="line-separator my-5"></div>
         </div>
     );
 }

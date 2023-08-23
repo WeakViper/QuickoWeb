@@ -10,7 +10,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function LandingBanner() {
   return (
-    <Container className='px-2 pt-2 pb-4' fluid>
+    <Container className='px-2 pt-2 pb-4 my-5' fluid>
       <Row>
         <Col xs={12} md={12}>
           <Carousel interval={3000} className="carousel-landing">
