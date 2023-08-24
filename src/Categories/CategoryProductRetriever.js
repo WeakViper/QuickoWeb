@@ -1,4 +1,4 @@
-import ProductCards from './ProductCards';
+import ProductCards from "../Home/ProductCards";
 
 const getRandomDescription = () => {
   const descriptions = [
@@ -19,7 +19,7 @@ const generateRandomCards = (count) => {
   return cards;
 };
 
-const RetrievingProducts = () => {
+const CategoryProductRetriever = () => {
   const randomCards = generateRandomCards(20);
 
   return (
@@ -27,7 +27,7 @@ const RetrievingProducts = () => {
 
       <div className="px-5 d-flex justify-content-center">
           <h1 className="h3">
-              Popular Items
+              Category name
           </h1>
       </div>
 
@@ -36,4 +36,4 @@ const RetrievingProducts = () => {
   );
 };
 
-export default RetrievingProducts;
+export default CategoryProductRetriever;
