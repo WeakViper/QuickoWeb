@@ -2,9 +2,8 @@
     background-color: #FA2640;
   }
 
-.white-bold-text {
+#basic-nav-dropdown {
     color: white !important;
-    font-weight: bold;
 }
 
 .custom-dropdown .dropdown-toggle::after {
