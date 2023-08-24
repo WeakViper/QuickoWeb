@@ -9,11 +9,14 @@ import Home from './Home/Home';
 import MainPage from './Settings/MainPage'
 import AddAddress from './SignInSignUp/AddAddress';
 import SignUp from './SignInSignUp/SignUp';
+import Cat from './Cat';
+import ContactUs from './SignInSignUp/ContactUs';
 
 function App() {
   return (
     <Router>
       <div className="App">
+        
       <Switch>
         <Route exact path = "/">
           <LandingPage />
@@ -41,6 +44,10 @@ function App() {
         
         <Route path = '/userprofile'>
           <UserInfo />
+        </Route>
+
+        <Route path = '/contactus'>
+          <ContactUs />
         </Route>
 
       </Switch>
