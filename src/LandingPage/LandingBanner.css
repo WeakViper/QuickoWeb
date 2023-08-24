@@ -7,3 +7,8 @@
     border-radius: 55px 55px 55px 55px;
     overflow: hidden;
 }
+
+.carousel-container-landing {
+  max-width: 90%; 
+  margin: 10 auto; 
+}

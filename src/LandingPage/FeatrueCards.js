@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Feature1 from "../images/Feature1.png";
 import Feature2 from "../images/Feature2.png";
@@ -85,6 +84,8 @@ function FeaturedCards() {
             </div>
         </div>
         </div>
+
+        <div className="line-separator my-5"></div>
     </div>
   );
 }
