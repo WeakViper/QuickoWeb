@@ -47,80 +47,90 @@ const Team = () => {
 
             <div className="productCarouselContainer mx-4 my-5">
                 <Carousel responsive={responsive} style={cardStyles}>
-                    <Card className="card-custom-2">
-                        <Card.Body className="card-body-custom">
-                            <div className="image-container">
-                                <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
-                                style={{ ...imageStyles}}/>
-                            </div>
-                            <Card.Title className="title-custom">
-                                Adnan Fazulbhoy
-                            </Card.Title>
-                            <Card.Text>
-                               Some dude i picked up on the street
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    <a href="https://www.linkedin.com/in/adnan-fazulbhoy/" target="_blank" rel="noopener noreferrer">
+                        <Card className="card-custom-2">
+                            <Card.Body className="card-body-custom">
+                                <div className="image-container">
+                                    <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
+                                    style={{ ...imageStyles}}/>
+                                </div>
+                                <Card.Title className="title-custom">
+                                    Adnan Fazulbhoy
+                                </Card.Title>
+                                <Card.Text>
+                                Some dude i picked up on the street
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </a>
 
-                    <Card className="card-custom-2">
-                        <Card.Body className="card-body-custom">
-                            <div className="image-container">
-                                <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
-                                style={{ ...imageStyles}}/>
-                            </div>
-                            <Card.Title className="title-custom">
-                                Adnan Fazulbhoy
-                            </Card.Title>
-                            <Card.Text>
-                               Some dude i picked up on the street
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    <a href="https://www.linkedin.com/in/adnan-fazulbhoy/" target="_blank" rel="noopener noreferrer">
+                        <Card className="card-custom-2">
+                            <Card.Body className="card-body-custom">
+                                <div className="image-container">
+                                    <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
+                                    style={{ ...imageStyles}}/>
+                                </div>
+                                <Card.Title className="title-custom">
+                                    Adnan Fazulbhoy
+                                </Card.Title>
+                                <Card.Text>
+                                Some dude i picked up on the street
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </a>
 
-                    <Card className="card-custom-2">
-                        <Card.Body className="card-body-custom">
-                            <div className="image-container">
-                                <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
-                                style={{ ...imageStyles}}/>
-                            </div>
-                            <Card.Title className="title-custom">
-                                Adnan Fazulbhoy
-                            </Card.Title>
-                            <Card.Text>
-                               Some dude i picked up on the street
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    <a href="https://www.linkedin.com/in/adnan-fazulbhoy/" target="_blank" rel="noopener noreferrer">
+                        <Card className="card-custom-2">
+                            <Card.Body className="card-body-custom">
+                                <div className="image-container">
+                                    <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
+                                    style={{ ...imageStyles}}/>
+                                </div>
+                                <Card.Title className="title-custom">
+                                    Adnan Fazulbhoy
+                                </Card.Title>
+                                <Card.Text>
+                                Some dude i picked up on the street
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </a>
 
-                    <Card className="card-custom-2">
-                        <Card.Body className="card-body-custom">
-                            <div className="image-container">
-                                <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
-                                style={{ ...imageStyles}}/>
-                            </div>
-                            <Card.Title className="title-custom">
-                                Adnan Fazulbhoy
-                            </Card.Title>
-                            <Card.Text>
-                               Some dude i picked up on the street
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    <a href="https://www.linkedin.com/in/adnan-fazulbhoy/" target="_blank" rel="noopener noreferrer">
+                        <Card className="card-custom-2">
+                            <Card.Body className="card-body-custom">
+                                <div className="image-container">
+                                    <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
+                                    style={{ ...imageStyles}}/>
+                                </div>
+                                <Card.Title className="title-custom">
+                                    Adnan Fazulbhoy
+                                </Card.Title>
+                                <Card.Text>
+                                Some dude i picked up on the street
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </a>
 
-                    <Card className="card-custom-2">
-                        <Card.Body className="card-body-custom">
-                            <div className="image-container">
-                                <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
-                                style={{ ...imageStyles}}/>
-                            </div>
-                            <Card.Title className="title-custom">
-                                Adnan Fazulbhoy
-                            </Card.Title>
-                            <Card.Text>
-                               Some dude i picked up on the street
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    <a href="https://www.linkedin.com/in/adnan-fazulbhoy/" target="_blank" rel="noopener noreferrer">
+                        <Card className="card-custom-2">
+                            <Card.Body className="card-body-custom">
+                                <div className="image-container">
+                                    <img src={Adnan} alt='Adnan pic' className="image-custom mb-4" 
+                                    style={{ ...imageStyles}}/>
+                                </div>
+                                <Card.Title className="title-custom">
+                                    Adnan Fazulbhoy
+                                </Card.Title>
+                                <Card.Text>
+                                Some dude i picked up on the street
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </a>
 
                 </Carousel>
             </div>
