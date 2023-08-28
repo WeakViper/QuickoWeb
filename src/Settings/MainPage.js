@@ -13,9 +13,13 @@ const BackButton = () => {
         console.log('Button clicked');
     };
     return (
-        <button className="back-button" onClick={handleClick}>
-            <ArrowLeft size={50} />
-        </button>
+        <Row className="mt-4">
+            <Col className="text-left">
+                <button className="back-button" onClick={handleClick}>
+                    <ArrowLeft size={50} />
+                </button>
+            </Col>
+        </Row>
     );
 };
 
@@ -41,11 +45,7 @@ const MainPage = () => {
         <div className="main-page">
             <SettingsNavbar />
             <Container>
-                <Row className="mt-4">
-                    <Col className="text-left">
-                        <BackButton />
-                    </Col>
-                </Row>
+                <BackButton />
                 <Row className="align-items-center">
                     <Col className="text-center">
                         <Link to="/userprofile">
@@ -77,7 +77,7 @@ const MainPage = () => {
                             />
                             <Banner
                                 title="Order History"
-                                link="/page2"
+                                link="/orderhistory"
                                 icon={Clock}
                                 description="View your past order history"
                             />
@@ -114,4 +114,8 @@ const MainPage = () => {
     );
 };
 
-export default MainPage;
+export {
+    BackButton,
+    Banner,
+    MainPage, 
+};

@@ -6,23 +6,8 @@ import SettingsNavbar from './SettingsNavbar';
 import './MainPage.css';
 import { Link } from 'react-router-dom';
 import userImg from "../images/user-image.jpg"
+import { BackButton, Banner } from './MainPage';
 
-const Banner = ({ title, link, icon, description }) => {
-    const IconComponent = icon;
-    return (
-        <Card className="mb-3">
-            <Card.Body>
-                <Card.Title>
-                    <IconComponent size={24} className="banner-icon" /> {title}
-                </Card.Title>
-                <p className="banner-description">{description}</p>
-                <Link to={link} className="banner-link">
-                    {title} <BoxArrowRight size={20} />
-                </Link>
-            </Card.Body>
-        </Card>
-    );
-};
 
 const UserInfo = () => {
     const [isEditingUsername, setIsEditingUsername] = useState(false);
@@ -60,13 +45,7 @@ const UserInfo = () => {
         <div className="main-page">
             <SettingsNavbar />
             <Container>
-                <Row className="mt-4">
-                    <Col className="text-left">
-                        <button className="back-button" onClick={() => window.history.back()}>
-                            <ArrowLeft size={50} />
-                        </button>
-                    </Col>
-                </Row>
+                <BackButton />
                 <Row className="align-items-center">
                     <Col className="text-center">
                         <div className="user-circle">
