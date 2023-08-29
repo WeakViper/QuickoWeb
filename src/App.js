@@ -3,12 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingPage from './LandingPage/LandingPage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import SignIn from './SignInSignUp/SignIn';
-import HomeNavbar from './LandingPage/Navbar';
 import UserInfo from './Settings/UserInfo'
 import Home from './Home/Home';
 import { MainPage } from './Settings/MainPage'
 import AddAddress from './SignInSignUp/AddAddress';
-import SignUp from './SignInSignUp/signUp';
+import SignUp from './SignInSignUp/SignUp';
 import OrderHistory from './Settings/OrderHistory';
 
 function App() {
