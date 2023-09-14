@@ -9,7 +9,7 @@ const SettingsNavbar = () => {
         <Navbar expand="md" className="settingsNavbar">
             <Container>
                 <div className="mx-auto d-flex align-items-center">
-                    <img alt="" src={logo} width="38" height="38" className="d-inline-block align-top" />
+                    <img alt="" src={logo} width="38" height="38" className="d-inline-block align-top pb-1" />
                     <h1 className="ms-0 h2 text-white fw-bold">uicko</h1>
                 </div>
             </Container>

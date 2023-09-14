@@ -9,6 +9,7 @@ import { MainPage } from './Settings/MainPage'
 import AddAddress from './SignInSignUp/AddAddress';
 import SignUp from './SignInSignUp/SignUp';
 import OrderHistory from './Settings/OrderHistory';
+import Cart from "./Cart/Cart"
 
 function App() {
   return (
@@ -45,6 +46,10 @@ function App() {
 
         <Route path = '/orderhistory'>
           <OrderHistory />
+        </Route>
+
+        <Route path = '/cart'>
+          <Cart />
         </Route>
 
       </Switch>
