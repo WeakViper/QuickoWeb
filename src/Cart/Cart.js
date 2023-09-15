@@ -4,6 +4,7 @@ import SettingsNavbar from '../Settings/SettingsNavbar';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { ArrowLeft, PersonCircle, Clock, Question, FileText, Geo, BoxArrowRight } from 'react-bootstrap-icons';
 import CartCards from './CartCards';
+import TotalPrice from './TotalPrice';
 
 
 const BackButton = () => {
@@ -28,6 +29,8 @@ const Cart = () => {
             <SettingsNavbar />
             <BackButton />
             <CartCards />
+            <TotalPrice />
+            <Footer />
         </div>
     );
 }
