@@ -21,6 +21,18 @@ function HomeNavbar() {
     history.push("/signup")
     
   }
+  const handleProfile=()=>{
+    history.push("/UserInfo")
+  }
+  const handlehome=()=>{
+    history.push("/home")
+  }
+  const handlesettings=()=>{
+    history.push("/settings")
+  }
+  
+  
+  
   
   return (
   <nav class="navbar navbar-expand-md navbar-dark introNavbar">
@@ -34,8 +46,10 @@ function HomeNavbar() {
         </div>
 
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-          <button className='btn btn-orange rounded-pill ms-auto px-4 mx-3' onClick={handleClickLogin}>Login</button>
-          <button className='btn btn-orange rounded-pill px-4 mr-2' onClick={handleSignUp}>SignUp</button>
+          <button className='btn btn-orange rounded-pill ms-auto' onClick={handleClickLogin}>Login</button>
+          <button className='btn btn-orange rounded-pill ms-auto' onClick={handleSignUp}>SignUp</button>
+          <button className='btn btn-orange rounded-pill ms-auto ' onClick={handlehome}>Home</button>
+          <button className='btn btn-orange rounded-pill ms-auto' onClick={handlesettings}>Settings</button>
         </div> 
     </div>
   </nav>

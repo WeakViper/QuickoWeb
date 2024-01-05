@@ -12,7 +12,7 @@ const LandingPage = () => {
             <Navbar sticky="top" exact />
             <div className="d-flex justify-content-center">
                 <h1 className="LandingHeader m-5">
-                    Gorcery Delivery at the speed of now
+                    Grocery Delivery at the speed of now
                 </h1>
             </div>
             <div className="line-separator my-5"></div>

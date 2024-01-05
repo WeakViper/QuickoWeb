@@ -26,11 +26,11 @@ const HomeNavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavDropdown title="Adresses" id="basic-nav-dropdown" className="white-bold-text">
+            <NavDropdown title="Address" id="basic-nav-dropdown" className="white-bold-text">
               <NavDropdown.Item href="#action/3.1">Address1</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Address2</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Edit Adresses</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Edit Addresses</NavDropdown.Item>
             </NavDropdown>
           </Nav>
 
