@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Aums-rep/static/css/main.60b5c1b8.css",
-    "main.js": "/Aums-rep/static/js/main.3d4c8682.js",
-    "static/media/banner4.png": "/Aums-rep/static/media/banner4.57b8a0fc6880b6b24c20.png",
-    "static/media/banner5.png": "/Aums-rep/static/media/banner5.9cedfcce9b9617942f3f.png",
-    "static/media/banner2.png": "/Aums-rep/static/media/banner2.ead26ea15c48d3c685c1.png",
-    "static/media/banner3.png": "/Aums-rep/static/media/banner3.29426618ecd41e4b4c19.png",
-    "static/media/SignUpBackground.png": "/Aums-rep/static/media/SignUpBackground.005ae73e855adea3c434.png",
-    "static/media/Adnan.jpg": "/Aums-rep/static/media/Adnan.3345980a3652efea2f08.jpg",
-    "static/media/SignInBanner.png": "/Aums-rep/static/media/SignInBanner.f2fcae666975df294d75.png",
-    "static/media/Feature3.png": "/Aums-rep/static/media/Feature3.f35699ebcc9dd381a419.png",
-    "static/media/testProduct.jpeg": "/Aums-rep/static/media/testProduct.a3f71907e9b243fdf8a1.jpeg",
-    "static/media/googleLogo.webp": "/Aums-rep/static/media/googleLogo.fb882af2a91c2f0e4d29.webp",
-    "static/media/Feature4.png": "/Aums-rep/static/media/Feature4.48dfcf57cf84f2a82ddd.png",
-    "static/media/Feature2.png": "/Aums-rep/static/media/Feature2.2bbb9051a103e78a1083.png",
-    "static/media/revicons.eot": "/Aums-rep/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/Aums-rep/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/Aums-rep/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/Aums-rep/index.html",
-    "main.60b5c1b8.css.map": "/Aums-rep/static/css/main.60b5c1b8.css.map",
-    "main.3d4c8682.js.map": "/Aums-rep/static/js/main.3d4c8682.js.map"
+    "main.css": "/weakviper.github.io/quickoweb/static/css/main.3675193f.css",
+    "main.js": "/weakviper.github.io/quickoweb/static/js/main.d8588bd8.js",
+    "static/media/banner4.png": "/weakviper.github.io/quickoweb/static/media/banner4.57b8a0fc6880b6b24c20.png",
+    "static/media/banner5.png": "/weakviper.github.io/quickoweb/static/media/banner5.9cedfcce9b9617942f3f.png",
+    "static/media/banner2.png": "/weakviper.github.io/quickoweb/static/media/banner2.ead26ea15c48d3c685c1.png",
+    "static/media/banner3.png": "/weakviper.github.io/quickoweb/static/media/banner3.29426618ecd41e4b4c19.png",
+    "static/media/SignUpBackground.png": "/weakviper.github.io/quickoweb/static/media/SignUpBackground.005ae73e855adea3c434.png",
+    "static/media/Adnan.jpg": "/weakviper.github.io/quickoweb/static/media/Adnan.3345980a3652efea2f08.jpg",
+    "static/media/SignInBanner.png": "/weakviper.github.io/quickoweb/static/media/SignInBanner.f2fcae666975df294d75.png",
+    "static/media/Feature3.png": "/weakviper.github.io/quickoweb/static/media/Feature3.f35699ebcc9dd381a419.png",
+    "static/media/testProduct.jpeg": "/weakviper.github.io/quickoweb/static/media/testProduct.a3f71907e9b243fdf8a1.jpeg",
+    "static/media/googleLogo.webp": "/weakviper.github.io/quickoweb/static/media/googleLogo.fb882af2a91c2f0e4d29.webp",
+    "static/media/Feature4.png": "/weakviper.github.io/quickoweb/static/media/Feature4.48dfcf57cf84f2a82ddd.png",
+    "static/media/Feature2.png": "/weakviper.github.io/quickoweb/static/media/Feature2.2bbb9051a103e78a1083.png",
+    "static/media/revicons.eot": "/weakviper.github.io/quickoweb/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/weakviper.github.io/quickoweb/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/weakviper.github.io/quickoweb/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/weakviper.github.io/quickoweb/index.html",
+    "main.3675193f.css.map": "/weakviper.github.io/quickoweb/static/css/main.3675193f.css.map",
+    "main.d8588bd8.js.map": "/weakviper.github.io/quickoweb/static/js/main.d8588bd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.60b5c1b8.css",
-    "static/js/main.3d4c8682.js"
+    "static/css/main.3675193f.css",
+    "static/js/main.d8588bd8.js"
   ]
 }
