@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/QuickoWeb/static/css/main.32a407d2.css",
-    "main.js": "/QuickoWeb/static/js/main.a393a69b.js",
+    "main.js": "/QuickoWeb/static/js/main.2a32f849.js",
     "static/media/banner4.png": "/QuickoWeb/static/media/banner4.57b8a0fc6880b6b24c20.png",
     "static/media/banner5.png": "/QuickoWeb/static/media/banner5.9cedfcce9b9617942f3f.png",
     "static/media/banner2.png": "/QuickoWeb/static/media/banner2.ead26ea15c48d3c685c1.png",
@@ -19,10 +19,10 @@
     "static/media/revicons.woff": "/QuickoWeb/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/QuickoWeb/index.html",
     "main.32a407d2.css.map": "/QuickoWeb/static/css/main.32a407d2.css.map",
-    "main.a393a69b.js.map": "/QuickoWeb/static/js/main.a393a69b.js.map"
+    "main.2a32f849.js.map": "/QuickoWeb/static/js/main.2a32f849.js.map"
   },
   "entrypoints": [
     "static/css/main.32a407d2.css",
-    "static/js/main.a393a69b.js"
+    "static/js/main.2a32f849.js"
   ]
 }
