@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/weakviper.github.io/QuickoWeb/static/css/main.fecaa604.css",
-    "main.js": "/weakviper.github.io/QuickoWeb/static/js/main.b53b092c.js",
-    "static/media/banner4.png": "/weakviper.github.io/QuickoWeb/static/media/banner4.57b8a0fc6880b6b24c20.png",
-    "static/media/banner5.png": "/weakviper.github.io/QuickoWeb/static/media/banner5.9cedfcce9b9617942f3f.png",
-    "static/media/banner2.png": "/weakviper.github.io/QuickoWeb/static/media/banner2.ead26ea15c48d3c685c1.png",
-    "static/media/banner3.png": "/weakviper.github.io/QuickoWeb/static/media/banner3.29426618ecd41e4b4c19.png",
-    "static/media/SignUpBackground.png": "/weakviper.github.io/QuickoWeb/static/media/SignUpBackground.005ae73e855adea3c434.png",
-    "static/media/Adnan.jpg": "/weakviper.github.io/QuickoWeb/static/media/Adnan.3345980a3652efea2f08.jpg",
-    "static/media/SignInBanner.png": "/weakviper.github.io/QuickoWeb/static/media/SignInBanner.f2fcae666975df294d75.png",
-    "static/media/Feature3.png": "/weakviper.github.io/QuickoWeb/static/media/Feature3.f35699ebcc9dd381a419.png",
-    "static/media/testProduct.jpeg": "/weakviper.github.io/QuickoWeb/static/media/testProduct.a3f71907e9b243fdf8a1.jpeg",
-    "static/media/googleLogo.webp": "/weakviper.github.io/QuickoWeb/static/media/googleLogo.fb882af2a91c2f0e4d29.webp",
-    "static/media/Feature4.png": "/weakviper.github.io/QuickoWeb/static/media/Feature4.48dfcf57cf84f2a82ddd.png",
-    "static/media/Feature2.png": "/weakviper.github.io/QuickoWeb/static/media/Feature2.2bbb9051a103e78a1083.png",
-    "static/media/revicons.eot": "/weakviper.github.io/QuickoWeb/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/weakviper.github.io/QuickoWeb/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/weakviper.github.io/QuickoWeb/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/weakviper.github.io/QuickoWeb/index.html",
-    "main.fecaa604.css.map": "/weakviper.github.io/QuickoWeb/static/css/main.fecaa604.css.map",
-    "main.b53b092c.js.map": "/weakviper.github.io/QuickoWeb/static/js/main.b53b092c.js.map"
+    "main.css": "/QuickoWeb/static/css/main.32a407d2.css",
+    "main.js": "/QuickoWeb/static/js/main.a393a69b.js",
+    "static/media/banner4.png": "/QuickoWeb/static/media/banner4.57b8a0fc6880b6b24c20.png",
+    "static/media/banner5.png": "/QuickoWeb/static/media/banner5.9cedfcce9b9617942f3f.png",
+    "static/media/banner2.png": "/QuickoWeb/static/media/banner2.ead26ea15c48d3c685c1.png",
+    "static/media/banner3.png": "/QuickoWeb/static/media/banner3.29426618ecd41e4b4c19.png",
+    "static/media/SignUpBackground.png": "/QuickoWeb/static/media/SignUpBackground.005ae73e855adea3c434.png",
+    "static/media/Adnan.jpg": "/QuickoWeb/static/media/Adnan.3345980a3652efea2f08.jpg",
+    "static/media/SignInBanner.png": "/QuickoWeb/static/media/SignInBanner.f2fcae666975df294d75.png",
+    "static/media/Feature3.png": "/QuickoWeb/static/media/Feature3.f35699ebcc9dd381a419.png",
+    "static/media/testProduct.jpeg": "/QuickoWeb/static/media/testProduct.a3f71907e9b243fdf8a1.jpeg",
+    "static/media/googleLogo.webp": "/QuickoWeb/static/media/googleLogo.fb882af2a91c2f0e4d29.webp",
+    "static/media/Feature4.png": "/QuickoWeb/static/media/Feature4.48dfcf57cf84f2a82ddd.png",
+    "static/media/Feature2.png": "/QuickoWeb/static/media/Feature2.2bbb9051a103e78a1083.png",
+    "static/media/revicons.eot": "/QuickoWeb/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/QuickoWeb/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/QuickoWeb/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/QuickoWeb/index.html",
+    "main.32a407d2.css.map": "/QuickoWeb/static/css/main.32a407d2.css.map",
+    "main.a393a69b.js.map": "/QuickoWeb/static/js/main.a393a69b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fecaa604.css",
-    "static/js/main.b53b092c.js"
+    "static/css/main.32a407d2.css",
+    "static/js/main.a393a69b.js"
   ]
 }
